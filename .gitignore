@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Private datasets
+backend/datasets/*
+!backend/datasets/.gitkeep
+
+# Generated reports
+backend/generated_reports/*
+!backend/generated_reports/.gitkeep
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Root sample and uploaded datasets
+datasets/*
+!datasets/.gitkeep
+
+# Backend datasets
+backend/datasets/*
+!backend/datasets/.gitkeep
+
+# Generated reports
+backend/generated_reports/*
+!backend/generated_reports/.gitkeep
+
+# Uploaded datasets - keep local only
+backend/uploaded_datasets/
+
+# Generated reports
+backend/generated_reports/
+
+# Root datasets
+datasets/
